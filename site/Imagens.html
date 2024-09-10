@@ -6,27 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aquele que não sabe sobre Imagens</title>
     <style>
-        .hover-box {
-            width: 200px;
-            height: 200px;
-            background-color: lightblue;
-            transition: all 0.3s ease; /* Smooth transition effect */
+        .hover-image img {
+            transition: transform 0.3s ease;
         }
 
-        .hover-box:hover {
-            width: 250px; /* New width on hover */
-            height: 250px; /* New height on hover */
+        .hover-image img:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
 
 <body bgcolor="bfbfbf">
-    <h1 align="center">Imagens</h1>
-
-    <a href="Imagens/Everlong.png" target="_blank">
-        <div class="hover-box">
-    <img src="Imagens/Everlong.png" alt="Description of Image" width="254" height="330">
-        </div>
+    <h1 align="center">Partituras</h1>
+    <a href="Imagens/Everlong.png" target="_blank" class="hover-image">
+        <img src="Imagens/Everlong.png" alt="Everlong - Foo Fighters" width="254" height="330">
+    </a>
+    
+    <a href="Imagens/Take five.png" target="_blank" class="hover-image">
+        <img src="Imagens/Take five.png" alt="Everlong - Foo Fighters" width="254" height="330">
     </a>
 </body>
 
