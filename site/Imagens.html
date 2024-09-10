@@ -5,13 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aquele que não sabe sobre Imagens</title>
+    <style>
+        .hover-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            transition: all 0.3s ease; /* Smooth transition effect */
+        }
+
+        .hover-box:hover {
+            width: 250px; /* New width on hover */
+            height: 250px; /* New height on hover */
+        }
+    </style>
 </head>
 
 <body bgcolor="bfbfbf">
     <h1 align="center">Imagens</h1>
 
     <a href="Imagens/Everlong.png" target="_blank">
+        <div class="hover-box">
     <img src="Imagens/Everlong.png" alt="Description of Image" width="254" height="330">
+        </div>
     </a>
 </body>
 
