@@ -4,13 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquele que não sabe sobre listas</title>
+    <title>Contato</title>
 </head>
 
 <body bgcolor="bfbfbf">
-    <a href="\Site\site\index.html">Voltar</a>
-    <h1 align="center">Listas</h1>
+    <h1 align="center">Entre em Contato</h1>
+    <p align="center">Se você tiver alguma dúvida ou quiser entrar em contato, preencha o formulário abaixo.</p>
+    <br>
 
+    <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain" align="center">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Assunto:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    <br>
 </body>
+
+<footer style="background-color: #e1e1e1; color: black; text-align: center; padding: 1px 0; width: 100%;">
+    <p>GABRIEL GONÇALVES PEREIRA - 5163743</p>
+</footer>
 
 </html>
